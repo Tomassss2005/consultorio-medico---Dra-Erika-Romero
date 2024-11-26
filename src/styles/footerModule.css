@@ -1,0 +1,163 @@
+/*FOOTER*/
+
+.footer {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_column {
+    flex: 1;
+    padding: 10px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_h3 {
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.ul_footer {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+}
+
+.li_footer {
+    margin-bottom: 10px;
+}
+
+.a_footer_ul {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 57px;
+    text-decoration: underline;
+    list-style: none;
+    text-decoration-color: rgb(173, 170, 170);
+}
+
+.a_footer_ul:hover {
+    color: #ccc;
+}
+
+.a_p_footer {
+    color: #fff;
+    text-decoration: underline;
+    list-style: none;
+    line-height: 65px;
+    text-decoration-color: rgb(173, 170, 170);
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.a_p_footer:hover {
+    color: #ccc;
+}
+
+.logo_home,
+.logo_med,
+.logo_wpp {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.copy_footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.hr_footer {
+    border: none;
+    border-top: 2px solid #444;
+    margin: 20px 0;
+}
+
+.mi_perfil {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: 'CAELUM', sans-serif;
+}
+
+.mi_perfil_nombre {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+    color: rgb(166, 158, 158);
+}
+
+.mi_perfil_nombre:hover {
+    color: rgb(193, 190, 190);
+    transition: transform 1s ease;
+    transform: scale(1.1);
+}
+
+.mi_perfil_Tom {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: #bd9c41;
+}
+
+.mi_perfil_Tom:hover {
+    color: #FFCA28;
+    transition: transform 1s ease;
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_column {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .ul_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .a_footer_ul {
+        justify-content: center;
+    }
+
+    .footer_bottom {
+        padding: 20px;
+    }
+}
