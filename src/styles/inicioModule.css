@@ -40,7 +40,6 @@
 .navbar_header {
     display: flex;
     align-items: center;
-    margin-right: auto;
     margin-left: 5rem;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -163,8 +162,8 @@
         display: block;
         cursor: pointer;
         position: absolute;
-        left: 40px;
-        margin-top: 60px;
+        left: 30px;
+        margin-top: 65px;
     }
 
     .navbar_toggle.open {
@@ -233,7 +232,7 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        margin-left: 1rem;
+        margin-left: 0;
         margin-bottom: 1rem;
     }
 

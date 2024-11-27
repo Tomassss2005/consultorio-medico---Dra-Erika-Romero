@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh;
     /* Ocupa toda la altura de la pantalla */
-  
+
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
@@ -137,7 +137,7 @@
 
 @media (max-width: 1400px) {
     .perfil_container {
-     
+
         /* Imagen diferente para pantallas más pequeñas */
         background-size: cover;
         /* Cubre todo el contenedor */
@@ -160,7 +160,7 @@
 
 @media (max-width: 1080px) {
     .perfil_container {
-   
+
         /* Imagen diferente para pantallas más pequeñas */
         background-size: cover;
         /* Cubre todo el contenedor */
@@ -182,7 +182,7 @@
 
 @media (max-width: 768px) {
     .perfil_container {
-    
+
         background-size: auto 100%;
         /* Ajusta la imagen a la altura del contenedor */
         background-repeat: no-repeat;

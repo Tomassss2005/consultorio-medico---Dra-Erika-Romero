@@ -1,0 +1,61 @@
+/* CARRUSEL DE IMAGENES */
+
+.carrusel {
+    position: relative;
+    width: 100%;
+    margin-bottom: 140px;
+    padding-top: 150px;
+}
+
+.carrusel_item {
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+.imagenes_carrusel {
+    width: 100%;
+    height: 650px;
+}
+
+.carrusel_description_p {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+@media (max-width:1200px) {
+    .carrusel {
+        padding-top: 0px;
+    }
+}
+
+
+
+@media (max-width: 950px) {
+    .carrusel {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .imagenes_carrusel {
+        height: 250px
+    }
+
+    .carrusel_description_p {
+        font-size: 14px;
+        padding: 3px;
+    }
+
+    .carrusel_description_p {
+        font-size: 14px;
+        bottom: 10;
+    }
+}

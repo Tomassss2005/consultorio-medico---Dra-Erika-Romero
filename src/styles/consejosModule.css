@@ -1,0 +1,74 @@
+/* CONSEJOS PARA LOS PACIENTES */
+
+
+.section_consejos {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+.h2_consejos {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 80px;
+    color: rgb(91, 74, 74);
+    font-family: "Lato", sans-serif;
+}
+
+.div_consejos {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 15px;
+}
+
+.consejos_item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.button_consejos {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #F1F1F1;
+    color: #333;
+    border: 1px solid #b0b0b0;
+    border-left: none;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button_consejos:hover {
+    background-color: #efefef;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description_consejos {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 25px;
+    margin-left: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+
+@media (max-width:768px) {
+
+    .div_consejos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .consejos_item {
+        width: 90%;
+    }
+
+    .button_consejos {
+        width: 100%;
+    }
+}
