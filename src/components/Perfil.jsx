@@ -8,12 +8,12 @@ import styles from "../styles/PerfilModule.css";
 
 function Perfil() {
     return (
-        <div className={`section_left ${styles.section_left}`}>
-            <div className={`perfil_container ${styles.perfil_container}`}>
+        <div className={`perfil_container ${styles.perfil_container}`}>
+            <div className={`section_left ${styles.section_left}`}>
                 <h2 className={`h2_perfil ${styles.h2_perfil}`}>TomDevX</h2>
                 <h3 className={`h3_perfil ${styles.h3_perfil}`}>Desarrollador Web</h3>
                 <h4 className={`h4_perfil ${styles.h4_perfil}`}>Diseñador de Páginas</h4>
-                <div className={`icono_redes ${styles.icono_redes}`}>
+                <div className={`iconos_redes ${styles.iconos_redes}`}>
                     <a className={`a_redes ${styles.a_redes}`} href="https://wa.me/91125267911" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className={`icono_wpp ${styles.icono_wpp}`} icon={faWhatsapp} size="2x" />
                     </a>
