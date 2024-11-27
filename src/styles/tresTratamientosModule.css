@@ -43,7 +43,7 @@
 .a_tratamientos {
     list-style: none;
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 12px 30px;
     font-size: 16px;
     border: 1.5px solid rgba(154, 150, 150, 0.728);
     border-radius: 4px;
@@ -101,5 +101,9 @@
     .img_tratamientos {
         width: 100%;
         height: auto;
+    }
+
+    .a_tratamientos {
+        font-size: 14.5px;
     }
 }

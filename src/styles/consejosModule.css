@@ -30,7 +30,7 @@
 
 .button_consejos {
     padding: 12px;
-    font-size: 16px;
+    font-size: 14.5px;
     cursor: pointer;
     background-color: #F1F1F1;
     color: #333;
@@ -70,5 +70,9 @@
 
     .button_consejos {
         width: 100%;
+    }
+
+    .description_consejos {
+        font-size: 0.9rem;
     }
 }

@@ -19,11 +19,15 @@ function Navbar() {
         setIsDropdownOpen(!isDropdownOpen);
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
 
     return (
         <nav className={`navbar ${styles.navbar}}`}>
             <div className={`navbar_header ${styles.navbar_header}}`}>
-                <Link to="/">
+                <Link to="/" onClick={scrollToTop}>
                     <img className={`img_nav ${styles.img_nav}}`} src="favicon.ico" alt="Logo médico" />
                 </Link>
             </div>
@@ -32,7 +36,7 @@ function Navbar() {
             </button>
             <ul className={`ul_nav ${isNavOpen ? 'open' : ''}`}>
                 <li>
-                    <Link to="/" className={`a_nav ${styles.a_nav}}`}>Inicio</Link>
+                    <Link to="/" onClick={scrollToTop} className={`a_nav ${styles.a_nav}}`}>Inicio</Link>
                 </li>
                 <ul className="ul">
                     <Link to="#" className={`a_nav ${styles.a_nav}}`} onClick={toggleDropdown}>

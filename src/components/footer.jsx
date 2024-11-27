@@ -6,6 +6,10 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import styles from "../styles/footerModule.css";
 
 function Footer() {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     return (
         <footer className={`footer ${styles.footer}`}>
             <div className={`footer_container ${styles.footer_container}`}>
@@ -13,7 +17,7 @@ function Footer() {
                     <h3 className={`footer_h3 ${styles.footer_h3}`}>Enlaces Rápidos</h3>
                     <ul className={`ul_footer ${styles.ul_footer}`}>
                         <li className={`li_footer ${styles.li_footer}`}>
-                            <Link className={`a_footer_ul ${styles.a_footer_ul}`} to="/">
+                            <Link to="/" onClick={scrollToTop} className={`a_footer_ul ${styles.a_footer_ul}`}>
                                 <FontAwesomeIcon className={`logo_home ${styles.logo_home}`} icon={faHome} size="2x" />Home
                             </Link>
                         </li>
