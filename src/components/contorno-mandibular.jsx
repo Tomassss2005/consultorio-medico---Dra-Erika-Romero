@@ -8,6 +8,7 @@ import styles from "../styles/contornoMandibular.css";
 function ContornoMandibular() {
 
     return (
+
         <div className={`tratamientos_container ${styles.tratamientos_container}`}>
             <div className={`container_descripcion_contorno_mandibular ${styles.container_descripcion_contorno_mandibular}`}>
                 <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Contorno mandibular</h2>
@@ -41,6 +42,7 @@ function ContornoMandibular() {
                 </ul>
             </div>
         </div>
+
 
 
     )

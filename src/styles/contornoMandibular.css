@@ -51,6 +51,7 @@
 
     .container_descripcion_contorno_mandibular {
         max-width: 100%;
+        max-height: 1300px;
         margin-right: 0;
         margin-bottom: 0px;
 
@@ -61,6 +62,10 @@
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 40px;
+    }
+
+    .img_contorno_mandibular {
+        height: 400px;
     }
 
 }

@@ -6,6 +6,7 @@ import styles from "../styles/alopeciaAndrogenicaModule.css";
 function Alopecia() {
 
     return (
+        <div>
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_alopecia ${styles.container_descripcion_alopecia}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Alopecia androgénica</h2>
@@ -30,6 +31,7 @@ function Alopecia() {
                     </ul>
                 </div>
             </div>
+        </div>
     )
 }
 

@@ -193,4 +193,44 @@
         height: 100vh;
         /* Ajusta la altura según sea necesario */
     }
+
+    .h2_perfil {
+        font-size: 2rem;
+    }
+
+    .h3_perfil {
+        font-size: 1.2rem;
+    }
+
+    .h4_perfil {
+        font-size: 0.9rem;
+    }
+
+    .h5_perfil {
+        font-size: 1.2rem;
+    }
+
+    .li_perfil {
+        font-size: 0.8rem;
+    }
+
+    .li_perfil:before {
+        font-size: 1rem;
+    }
+
+    .icono_wpp {
+        font-size: 20px;
+    }
+
+    .icono_instagram {
+        font-size: 20px;
+    }
+
+    .icono_email {
+        font-size: 20px;
+    }
+
+    .icono_linkedin {
+        font-size: 20px;
+    }
 }
