@@ -96,6 +96,7 @@
     .tratamiento {
         width: 80%;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 
     .img_tratamientos {
@@ -104,6 +105,6 @@
     }
 
     .a_tratamientos {
-        font-size: 14.5px;
+        font-size: 13px;
     }
 }

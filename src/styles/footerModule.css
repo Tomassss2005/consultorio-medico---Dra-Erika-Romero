@@ -63,13 +63,25 @@
     color: #fff;
     text-decoration: underline;
     list-style: none;
+    line-height: 67px;
+    text-decoration-color: rgb(173, 170, 170);
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.a_p_footer_3 {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 15px;
+    list-style: none;
     line-height: 65px;
     text-decoration-color: rgb(173, 170, 170);
     color: white;
     font-family: "Lato", sans-serif;
 }
 
-.a_p_footer:hover {
+.a_p_footer:hover,
+.a_p_footer_3:hover {
     color: #ccc;
 }
 
@@ -135,7 +147,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .footer_container {
         flex-direction: column;
         align-items: center;

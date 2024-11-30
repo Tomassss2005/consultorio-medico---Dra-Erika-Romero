@@ -135,7 +135,7 @@
     }
 
     .img_nav {
-        margin-right: 90px;
+        margin-right: 40px;
         margin-top: -50px;
     }
 
@@ -162,8 +162,9 @@
         display: block;
         cursor: pointer;
         position: absolute;
-        left: 30px;
-        margin-top: 65px;
+        font-size: 2rem;
+        left: 40px;
+        margin-top: 70px;
     }
 
     .navbar_toggle.open {
