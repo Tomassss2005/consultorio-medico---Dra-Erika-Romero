@@ -1,0 +1,236 @@
+/* PERFIL */
+
+.perfil_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    /* Ocupa toda la altura de la pantalla */
+    background-image: url(/public/imagen-mi-perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+.h2_perfil {
+    font-size: 2.5rem;
+    margin: 0 0 40px;
+    color: #FFCA28;
+    font-family: 'CAELUM', sans-serif;
+}
+
+.h3_perfil {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.h4_perfil {
+    font-size: 1.1rem;
+    color: #ffc928a2;
+    font-family: 'Lato', sans-serif;
+}
+
+.div_habilidades {
+    margin-top: 40px;
+}
+
+.section_right {
+    margin-left: 20px;
+}
+
+.section_left {
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.h5_perfil {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #FFCA28;
+    font-family: 'Lato', sans-serif;
+}
+
+.ul_perfil {
+    padding-left: 0;
+    /* Elimina padding de la lista */
+}
+
+.li_perfil {
+    text-align: start;
+    list-style: none;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+}
+
+.li_perfil:before {
+    content: '●';
+    color: #289b49ce;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.a_redes {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.iconos_redes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.icono_wpp {
+    font-size: 25px;
+}
+
+.icono_instagram {
+    font-size: 25px;
+}
+
+.icono_email {
+    font-size: 23px;
+    margin-top: 0.5px;
+}
+
+.icono_linkedin {
+    font-size: 23px;
+}
+
+.icono_wpp:hover {
+    transform: scale(1.1);
+    color: #25D366;
+}
+
+.icono_wpp:active {
+    color: #25D366;
+}
+
+.icono_instagram:hover {
+    transform: scale(1.1);
+    color: #e1306c
+}
+
+.icono_instagram:active {
+    color: #e1306c
+}
+
+.icono_email:hover {
+    transform: scale(1.1);
+    color: #809bb3;
+}
+
+.icono_email:active {
+    color: #809bb3;
+}
+
+.icono_linkedin:hover {
+    transform: scale(1.1);
+    color: #0077b5;
+}
+
+.icono_linkedin:active {
+    color: #0077b5;
+}
+
+@media (max-width: 1400px) {
+    .perfil_container {
+        background-image: url(/public/imagen-mi-perfil.jpg);
+        /* Imagen diferente para pantallas más pequeñas */
+        background-size: cover;
+        /* Cubre todo el contenedor */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        text-align: center;
+        align-items: center;
+    }
+
+    .section_left,
+    .section_right {
+        margin-bottom: 180px;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (max-width: 1080px) {
+    .perfil_container {
+        background-image: url(/public/imagen-mi-perfil.jpg);
+        /* Imagen diferente para pantallas más pequeñas */
+        background-size: cover;
+        /* Cubre todo el contenedor */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        text-align: center;
+        align-items: center;
+    }
+
+    .section_left,
+    .section_right {
+        margin-bottom: 180px;
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .perfil_container {
+        background-image: url(/public/imagen-mi-perfil.jpg);
+        background-size: auto 100%;
+        /* Ajusta la imagen a la altura del contenedor */
+        background-repeat: no-repeat;
+        background-position: center;
+        /* Centra la imagen en el contenedor */
+        height: 100vh;
+        /* Ajusta la altura según sea necesario */
+    }
+
+    .h2_perfil {
+        font-size: 2rem;
+    }
+
+    .h3_perfil {
+        font-size: 1.2rem;
+    }
+
+    .h4_perfil {
+        font-size: 0.9rem;
+    }
+
+    .h5_perfil {
+        font-size: 1.2rem;
+    }
+
+    .li_perfil {
+        font-size: 0.8rem;
+    }
+
+    .li_perfil:before {
+        font-size: 1rem;
+    }
+
+    .icono_wpp {
+        font-size: 20px;
+    }
+
+    .icono_instagram {
+        font-size: 20px;
+    }
+
+    .icono_email {
+        font-size: 20px;
+    }
+
+    .icono_linkedin {
+        font-size: 20px;
+    }
+}
