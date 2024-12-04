@@ -37,6 +37,7 @@ function App() {
           }
         />
 
+
         <Route
           path='/alopecia-androgenica'
           element={

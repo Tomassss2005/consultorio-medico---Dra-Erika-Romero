@@ -12,7 +12,7 @@
     text-align: center;
     align-items: center;
     padding-top: 300px;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
 }
 
 .h1_antes_despues {
@@ -107,6 +107,10 @@
 
     .container_antes_despues {
         margin-bottom: 60px;
+    }
+
+    .container_antes_despues_2 {
+        margin-bottom: 100px;
     }
 
     .h1_antes_despues {
