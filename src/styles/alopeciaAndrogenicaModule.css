@@ -15,11 +15,19 @@
 .container_descripcion_alopecia {
     flex: 1;
     max-width: 600px;
-    margin-top: 260px;
+    margin: 0 100px;
+    /* Márgenes laterales */
     padding: 20px;
     background-color: #af0d0d09;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.291);
+    margin-top: 250px;
+}
+
+.container_beneficios {
+    flex: 1;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .h2_tratamientos {
@@ -41,7 +49,7 @@
     margin-top: 10px;
     text-align: left;
     font-size: 18px;
-    line-height: 2.5;
+    line-height: 1.8;
     font-family: "Exo", sans-serif;
 }
 
@@ -91,7 +99,7 @@
 .li_tratamientos:before {
     content: '●';
     color: #007bff8e;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 10px;
 }
 
