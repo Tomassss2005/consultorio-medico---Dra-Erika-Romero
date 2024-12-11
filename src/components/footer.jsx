@@ -22,8 +22,8 @@ function Footer() {
                             </Link>
                         </li>
                         <li className={`li_footer ${styles.li_footer}`}>
-                            <Link className={`a_footer_ul ${styles.a_footer_ul}`} to="/tres-tratamientos">
-                                <FontAwesomeIcon className={`logo_med ${styles.logo_med}`} icon={faStethoscope} size="2x" />Servicios
+                            <Link className={`a_footer_ul ${styles.a_footer_ul}`} to="/nosotros" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                                <FontAwesomeIcon className={`logo_med ${styles.logo_med}`} icon={faStethoscope} size="2x" />Mi perfil
                             </Link>
                         </li>
                         <li className={`li_footer ${styles.li_footer}`}>

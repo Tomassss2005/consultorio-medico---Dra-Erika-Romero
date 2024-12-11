@@ -1,0 +1,53 @@
+/* TOXINA BOTULINICA */
+
+.container_descripcion_toxina_botulinica {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 20px;
+    margin-top: 260px;
+    padding: 20px;
+    background-color: #af0d0d09;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.291);
+}
+
+.img_toxina_botulinica {
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.container_beneficios_toxina_botulinica {
+    margin-top: 550px;
+    flex: 1;
+    max-width: 400px;
+}
+
+@media (max-width: 1200px) {
+    .container_descripcion_toxina_botulinica {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .container_descripcion_toxina_botulinica {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+
+    .container_beneficios_toxina_botulinica {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+}
