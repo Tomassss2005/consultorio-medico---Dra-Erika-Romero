@@ -1,8 +1,18 @@
 /* PRP */
 
+.tratamientos_container {
+    display: flex;
+    flex-direction: row;
+    /* Usar Flexbox para alinear los elementos en una fila */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
 .container_descripcion_PRP {
     flex: 1;
     max-width: 600px;
+    margin: 0 100px;
     margin-top: 260px;
     padding: 20px;
     background-color: #af0d0d09;
@@ -20,19 +30,27 @@
 }
 
 .container_beneficios_PRP {
-    margin-top: 600px;
     flex: 1;
-    max-width: 400px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 600px;
+}
+
+@media (max-width: 1250px) {
+
+    .container_descripcion_PRP {
+        margin-top: 250px;
+    }
+
+    .container_beneficios_PRP {
+        margin-top: 60px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 1200px) {
     .container_descripcion_PRP {
         margin-top: 30px;
-        margin-left: 20px;
-    }
-
-    .container_beneficios_PRP {
-        margin-top: 370px;
     }
 }
 
@@ -41,6 +59,7 @@
 
     .container_descripcion_PRP {
         max-width: 100%;
+        margin-left: 0px;
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 60px;

@@ -24,16 +24,11 @@
     margin-top: 250px;
 }
 
-.container_beneficios {
+.container_beneficios_alopecia {
     flex: 1;
     padding: 20px;
-    margin-top: 30px;
-}
-
-.h2_tratamientos {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #8e4c4c7b;
+    margin-right: 100px;
+    margin-top: 700px;
 }
 
 .img_alopecia {
@@ -45,43 +40,6 @@
     margin-bottom: 15px;
 }
 
-.p_tratamientos {
-    margin-top: 10px;
-    text-align: left;
-    font-size: 18px;
-    line-height: 1.8;
-    font-family: "Exo", sans-serif;
-}
-
-.btn_agendar {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff8e;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-.btn_agendar:hover {
-    background-color: #0057b3b1;
-}
-
-.btn_agendar:active {
-    background-color: rgba(15, 69, 216, 0.536);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.h3_beneficios {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: #8e4c4c7b;
-}
-
 .beneficios_tratamientos {
     padding: 0;
     font-size: 1.2rem;
@@ -89,49 +47,45 @@
     list-style: none;
 }
 
-.li_tratamientos {
-    text-align: center;
-    font-size: 16px;
-    line-height: 4;
-    position: relative;
-}
 
-.li_tratamientos:before {
-    content: '●';
-    color: #007bff8e;
-    font-size: 1rem;
-    margin-right: 10px;
-}
+@media (max-width: 1250px) {
 
-.container_beneficios_alopecia {
-    margin-top: 700px;
-    flex: 1;
-    max-width: 400px;
+    .container_descripcion_alopecia {
+        margin-top: 250px;
+    }
+
+    .container_beneficios_alopecia {
+        margin-top: 60px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 1200px) {
-
     .container_descripcion_alopecia {
         margin-top: 30px;
-        margin-left: 20px;
     }
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
     .container_descripcion_alopecia {
         max-width: 100%;
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 60px;
+        margin: 0;
     }
 
     .container_beneficios_alopecia {
         max-width: 100%;
         margin-right: 0;
         margin-bottom: 0px;
-        margin-top: 40px;
+        margin-top: 60px;
+    }
+
+    .img_alopecia {
+        height: 250px;
     }
 
 }

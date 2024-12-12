@@ -20,7 +20,7 @@ function Alopecia() {
                     </p>
                     <a href="https://wa.me/91137742782" className={`btn_agendar ${styles.btn_agendar}`}>Agendar Cita</a>
                 </div>
-                <div className={`container_beneficiosgit status ${styles.container_beneficios_alopecia}`}>
+                <div className={`container_beneficios_alopecia ${styles.container_beneficios_alopecia}`}>
                     <h3 className={`h3_beneficios ${styles.h3_beneficios}`}>Beneficios</h3>
                     <ul className={`beneficios_tratamientos ${styles.beneficios_tratamientos}`}>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Se detiene la caida patológica del cabello.</li>

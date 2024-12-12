@@ -1,13 +1,25 @@
 /* NUTRICIÓN Y CALIDAD DE PIEL */
 
+.tratamientos_container {
+    display: flex;
+    flex-direction: row;
+    /* Usar Flexbox para alinear los elementos en una fila */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
 .container_descripcion_piel {
     flex: 1;
     max-width: 600px;
-    margin-top: 260px;
+    margin: 0 100px;
+    /* Márgenes laterales */
     padding: 20px;
     background-color: #af0d0d09;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.291);
+    margin-top: 260px;
 }
 
 .img_piel {
@@ -20,19 +32,27 @@
 }
 
 .container_beneficios_piel {
-    margin-top: 600px;
     flex: 1;
-    max-width: 400px;
+    padding: 20px;
+    margin-top: 600px;
+    margin-right: 100px;
+}
+
+@media (max-width: 1250px) {
+
+    .container_descripcion_piel {
+        margin-top: 250px;
+    }
+
+    .container_beneficios_piel {
+        margin-top: 60px;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 1200px) {
     .container_descripcion_piel {
         margin-top: 30px;
-        margin-left: 20px;
-    }
-
-    .container_beneficios_piel {
-        margin-top: 370px;
     }
 }
 
@@ -41,6 +61,7 @@
 
     .container_descripcion_piel {
         max-width: 100%;
+        margin-left: 0px;
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 60px;
