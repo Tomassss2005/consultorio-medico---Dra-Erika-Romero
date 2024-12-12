@@ -17,7 +17,7 @@ import Footer from "./components/footer.jsx";
 import Nosotros from "./components/nosotros.jsx";
 import Resultados from "./components/resultados.jsx";
 import Contacto from "./components/contacto.jsx";
-import Perfil from "./components/perfil.jsx";
+import Perfil from "./components/Perfil.jsx";
 
 
 function App() {
