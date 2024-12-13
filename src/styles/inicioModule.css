@@ -227,6 +227,7 @@
         flex-direction: column;
         position: static;
         padding-top: 2rem;
+        margin: 0px;
     }
 
     .navbar_header {
@@ -239,7 +240,13 @@
     }
 
     .navbar_toggle {
-        display: block;
+        margin-top: 51px;
+        font-size: 2.2rem;
+    }
+
+    .img_nav {
+        height: 140px;
+        width: 260px;
     }
 
     .ul_nav {

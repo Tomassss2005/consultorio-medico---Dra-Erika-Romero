@@ -44,6 +44,11 @@ const Navbar = () => {
         };
     }, []);
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+
     return (
         <nav ref={navRef} className={`navbar ${styles.navbar}`}>
             <div className={`navbar_header ${styles.navbar_header}`}>
@@ -67,31 +72,31 @@ const Navbar = () => {
                     {isDropdownOpen && (
                         <ul className={`ul_menu ${isDropdownOpen ? "open" : ""}`}>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/alopecia-androgenica">Alopecia androgénica</Link>
+                                <Link to="/alopecia-androgenica" onClick={scrollToTop}>Alopecia androgénica</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/contorno-mandibular">Contorno mandibular</Link>
+                                <Link to="/contorno-mandibular" onClick={scrollToTop}>Contorno mandibular</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/despigmentacion">Despigmentación</Link>
+                                <Link to="/despigmentacion" onClick={scrollToTop}>Despigmentación</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/fillers-con-acido-hialuronico">Fillers con ácido hialurónico</Link>
+                                <Link to="/fillers-con-acido-hialuronico" onClick={scrollToTop}>Fillers con ácido hialurónico</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/intradermoterapia">Intradermoterapia</Link>
+                                <Link to="/intradermoterapia" onClick={scrollToTop} >Intradermoterapia</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/nutricion-calidad-de-piel">Nutrición y calidad de piel</Link>
+                                <Link to="/nutricion-calidad-de-piel" onClick={scrollToTop}>Nutrición y calidad de piel</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/peeling-facial">Peeling facial</Link>
+                                <Link to="/peeling-facial" onClick={scrollToTop}>Peeling facial</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/plasma-rico-en-plaquetas">Plasma rico en plaquetas</Link>
+                                <Link to="/plasma-rico-en-plaquetas" onClick={scrollToTop}>Plasma rico en plaquetas</Link>
                             </li>
                             <li className={`li_nav ${styles.li_nav}`}>
-                                <Link to="/toxina-botulinica">Toxina botulínica</Link>
+                                <Link to="/toxina-botulinica" onClick={scrollToTop}>Toxina botulínica</Link>
                             </li>
                         </ul>
                     )}
