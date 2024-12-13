@@ -245,6 +245,8 @@
     }
 
     .img_nav {
+        margin-left: 50px;
+        margin-right: 0px;
         height: 140px;
         width: 260px;
     }
