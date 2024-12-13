@@ -49,18 +49,12 @@
 @media (max-width: 1250px) {
 
     .container_descripcion_contorno_mandibular {
-        margin-top: 250px;
+        margin-top: 0px;
     }
 
     .container_beneficios_contorno_mandibular {
         margin-top: 60px;
         margin-right: 0px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .container_descripcion_contorno_mandibular {
-        margin-top: 30px;
     }
 }
 
@@ -83,7 +77,7 @@
     }
 
     .img_contorno_mandibular {
-        height: 400px;
+        height: auto;
     }
 
 }

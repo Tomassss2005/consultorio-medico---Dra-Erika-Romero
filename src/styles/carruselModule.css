@@ -4,7 +4,7 @@
     position: relative;
     width: 100%;
     margin-bottom: 140px;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .carrusel_item {
@@ -31,7 +31,7 @@
     font-family: "Lato", sans-serif;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1250px) {
     .carrusel {
         padding-top: 0px;
     }
@@ -39,14 +39,15 @@
 
 
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
     .carrusel {
         width: 100%;
         padding-top: 0px;
     }
 
     .imagenes_carrusel {
-        height: 230px
+        height: 260px;
+        width: 100%;
     }
 
     .carrusel_description_p {

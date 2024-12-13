@@ -42,18 +42,12 @@
 @media (max-width: 1250px) {
 
     .container_descripcion_acido_hialuronico {
-        margin-top: 250px;
+        margin-top: 0px;
     }
 
     .container_beneficios_acido_hialuronico {
         margin-top: 60px;
         margin-right: 0px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .container_descripcion_acido_hialuronico {
-        margin-top: 30px;
     }
 }
 
@@ -65,7 +59,7 @@
         margin-right: 0;
         margin-left: 0px;
         margin-bottom: 0px;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .container_beneficios_acido_hialuronico {
@@ -73,6 +67,10 @@
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 40px;
+    }
+
+    .img_acido_hialuronico {
+        height: auto;
     }
 
 }

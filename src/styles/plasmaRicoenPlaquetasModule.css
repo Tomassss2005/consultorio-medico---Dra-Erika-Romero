@@ -39,18 +39,12 @@
 @media (max-width: 1250px) {
 
     .container_descripcion_PRP {
-        margin-top: 250px;
+        margin-top: 0px;
     }
 
     .container_beneficios_PRP {
         margin-top: 60px;
         margin-right: 0px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .container_descripcion_PRP {
-        margin-top: 30px;
     }
 }
 
@@ -62,7 +56,7 @@
         margin-left: 0px;
         margin-right: 0;
         margin-bottom: 0px;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .container_beneficios_PRP {
@@ -70,6 +64,10 @@
         margin-right: 0;
         margin-bottom: 0px;
         margin-top: 40px;
+    }
+
+    .img_PRP {
+        height: auto;
     }
 
 }

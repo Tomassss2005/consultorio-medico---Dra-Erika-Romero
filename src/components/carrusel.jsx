@@ -10,11 +10,11 @@ const Carrusel = () => {
             description: "Nuestro objetivo es tu bienestar. ¡Vení y comprobá la diferencia!",
         },
         {
-            src: "/carrusel-2.webp",
+            src: "/carrusel-2.png",
             description: "Conocé nuestros tratamientos innovadores que garantizan resultados.",
         },
         {
-            src: "/carrusel-3.jpg",
+            src: "/carrusel-3.png",
             description: "Descubrí cómo adaptamos nuestros servicios a tus necesidades.",
         }
     ];
