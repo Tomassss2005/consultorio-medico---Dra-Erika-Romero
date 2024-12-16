@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/alopeciaAndrogenicaModule.css";
-import LazyLoad from "react-lazyload";
 
 
 
@@ -11,9 +10,7 @@ function Alopecia() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_alopecia ${styles.container_descripcion_alopecia}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Alopecia androgénica</h2>
-                    <LazyLoad>
-                        <img src="/alopecia-androgenica.jpg" alt="Imagen de persona alopecia androgénica" className={`img_alopecia ${styles.img_alopecia}`} />
-                    </LazyLoad>
+                    <img src="/alopecia-androgenica.jpg" alt="Imagen de persona alopecia androgénica" className={`img_alopecia ${styles.img_alopecia}`} />
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         También llamada calvicie común, se produce por el adelgazamiento y pérdida progresiva y excesiva de cabello, siendo la responsable del 95% de los casos de pérdida del cabello en la población. Afecta principalmente a los varones, pero también a las mujeres.
                         Como causas se destacan dos factores, el genético y el hormonal. El factor hormonal depende fundamentalmente de las hormonas masculinas (testosterona) o andrógenos que actúan sobre los folículos pilosos predispuestos genéticamente a la afección, provocando su miniaturización progresiva hasta ocasionar su atrofia completa y fibrosis.

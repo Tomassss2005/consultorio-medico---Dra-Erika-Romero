@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/plasmaRicoenPlaquetasModule.css"
-import LazyLoad from "react-lazyload";
 
 
 
@@ -12,9 +11,7 @@ function PRP() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_PRP ${styles.container_descripcion_PRP}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Plasma rico en plaquetas</h2>
-                    <LazyLoad>
-                        <img src="/PRP.jpg" alt="Imagen de persona plasma rico en plaquetas" className={`img_PRP ${styles.img_PRP}`} />
-                    </LazyLoad>
+                    <img src="/PRP.jpg" alt="Imagen de persona plasma rico en plaquetas" className={`img_PRP ${styles.img_PRP}`} />
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         El fundamento de la utilización de PRP es la existencia de factores de crecimiento y citoquinas (proteínas) en el plasma sanguineo, que trabajan conjuntamente para producir SÍNTESIS DE NUEVO TEJIDO CON VITALIDAD RENOVADA. Estos estimulan a los fibroblastos que son las células que producen colágeno, elastina y ácido hialurónico naturales propios del cuerpo.
                         Mejora la piel, su estructura interna, la hidratación, la textura y el brillo.

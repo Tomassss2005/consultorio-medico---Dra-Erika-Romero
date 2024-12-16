@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import styles from "../styles/inicioModule.css";
-import LazyLoad from "react-lazyload";
 
 const Navbar = () => {
     const [isNavOpen, setIsNavOpen] = useState(false); // Estado para el navbar-toggle
@@ -53,11 +52,9 @@ const Navbar = () => {
     return (
         <nav ref={navRef} className={`navbar ${styles.navbar}`}>
             <div className={`navbar_header ${styles.navbar_header}`}>
-                <LazyLoad>
-                    <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-                        <img className={`img_nav ${styles.img_nav}`} src="favicon.ico" alt="Logo médico" />
-                    </Link>
-                </LazyLoad>
+                <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                    <img className={`img_nav ${styles.img_nav}`} src="favicon.ico" alt="Logo médico" />
+                </Link>
             </div>
             <button className={`navbar_toggle ${isNavOpen ? "open" : ""}`} onClick={toggleNavMenu}>
                 &#9776;

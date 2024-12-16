@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/resultadosModule.css";
-import LazyLoad from "react-lazyload";
 
 
 function Resultados() {

@@ -1,14 +1,11 @@
 import React from "react";
 import styles from "../styles/nosotrosModule.css";
-import LazyLoad from "react-lazyload";
 
 
 function Nosotros() {
     return (
         <div className={`contenido_nosotros ${styles.contenido_nosotros}`}>
-            <LazyLoad>
-                <img src="/doctora.jpg" alt="Imagen de la doctora" className={`img_nosotros ${styles.img_nosotros}`} />
-            </LazyLoad>
+            <img src="/doctora.jpg" alt="Imagen de la doctora" className={`img_nosotros ${styles.img_nosotros}`} />
             <div className="contenido-nosotros">
                 <h2 className={`h2_nosotros ${styles.h2_nosotros}`}>Dra Erika Romero</h2>
                 <h3 className={`h3_nosotros ${styles.h3_nosotros}`}>Sobre Mi</h3>

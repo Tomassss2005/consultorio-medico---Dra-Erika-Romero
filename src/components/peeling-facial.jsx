@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/peelingFacialModule.css";
-import LazyLoad from "react-lazyload";
 
 
 
@@ -12,13 +11,11 @@ function Peeling() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_peeling ${styles.container_descripcion_peeling}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Peeling facial</h2>
-                    <LazyLoad>
                         <img
                             className={`img_peeling ${styles.img_peeling}`}
                             src="/peeling.avif"
                             alt="Imagen de persona con peeling"
                         />
-                    </LazyLoad>
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         El peeling facial es un tratamiento que a través de la combinación de ácidos de diferentes tipos, elegidos según
                         cada paciente, mejora notablemente la textura, las arrugas finas y las capas superficiales de la piel mediante una

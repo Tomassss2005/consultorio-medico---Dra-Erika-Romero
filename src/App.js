@@ -1,5 +1,6 @@
-import React from 'react';
+import { React, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
+
 import Inicio from "./components/inicio.jsx";
 import AlopeciaAndrogenica from "./components/alopecia-androgenica.jsx"
 import ContornoMandibular from "./components/contorno-mandibular.jsx";
@@ -18,196 +19,153 @@ import Nosotros from "./components/nosotros.jsx";
 import Resultados from "./components/resultados.jsx";
 import Contacto from "./components/contacto.jsx";
 import Perfil from "./components/Perfil.jsx";
-import LazyLoad from 'react-lazyload';
 
 
 function App() {
   return (
     <div>
-      <Routes>
-        <Route
-          path='/'
-          element={
-            <>
-              <LazyLoad>
+      <Suspense fallback={<div className='spinner'>Cargando...</div>}>
+        <Routes>
+          <Route
+            path='/'
+            element={
+              <>
                 <Inicio />
                 <Carrusel />
                 <TresTratamientos />
                 <Consejos />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-
-        <Route
-          path='/alopecia-androgenica'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/alopecia-androgenica'
+            element={
+              <>
                 <Inicio />
                 <AlopeciaAndrogenica />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/contorno-mandibular'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/contorno-mandibular'
+            element={
+              <>
                 <Inicio />
                 <ContornoMandibular />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/despigmentacion'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/despigmentacion'
+            element={
+              <>
                 <Inicio />
                 <Despigmentacion />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/fillers-con-acido-hialuronico'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/fillers-con-acido-hialuronico'
+            element={
+              <>
                 <Inicio />
                 <FillersConAcidoHialuronico />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/intradermoterapia'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/intradermoterapia'
+            element={
+              <>
                 <Inicio />
                 <Intradermoterapia />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/nutricion-calidad-de-piel'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/nutricion-calidad-de-piel'
+            element={
+              <>
                 <Inicio />
                 <NutricionCalidadDePiel />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/peeling-facial'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/peeling-facial'
+            element={
+              <>
                 <Inicio />
                 <PeelingFacial />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/plasma-rico-en-plaquetas'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/plasma-rico-en-plaquetas'
+            element={
+              <>
                 <Inicio />
                 <PlasmaRicoEnPlaquetas />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/toxina-botulinica'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/toxina-botulinica'
+            element={
+              <>
                 <Inicio />
                 <ToxinaBotulinica />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/nosotros'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/nosotros'
+            element={
+              <>
                 <Inicio />
                 <Nosotros />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/resultados'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/resultados'
+            element={
+              <>
                 <Inicio />
                 <Resultados />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/contacto'
-          element={
-            <>
-              <LazyLoad>
+              </>
+            }
+          />
+          <Route
+            path='/contacto'
+            element={
+              <>
                 <Inicio />
                 <Contacto />
                 <Footer />
-              </LazyLoad>
-            </>
-          }
-        />
-
-        <Route
-          path='/mi-perfil'
-          element={
-            <LazyLoad>
-              <Perfil />
-            </LazyLoad>
-          }
-        />
-      </Routes>
+              </>
+            }
+          />
+          <Route
+            path='/mi-perfil'
+            element={<Perfil />}
+          />
+        </Routes>
+      </Suspense>
     </div>
   );
-};
+}
 
 export default App;

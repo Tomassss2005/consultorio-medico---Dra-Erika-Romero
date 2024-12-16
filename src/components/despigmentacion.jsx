@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/despigmentacionModule.css";
-import LazyLoad from "react-lazyload";
 
 
 
@@ -11,13 +10,11 @@ function Despigmentacion() {
         <div className={`tratamientos_container ${styles.tratamientos_container}`}>
             <div className={`container_descripcion_despigmentacion ${styles.container_descripcion_despigmentacion}`}>
                 <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Despigmentación</h2>
-                <LazyLoad>
-                    <img
-                        className={`img_despigmentacion ${styles.img_despigmentacion}`}
-                        src="/despigmentacion.jpg"
-                        alt="Imagen de persona de tratamiento despigmentación"
-                    />
-                </LazyLoad>
+                <img
+                    className={`img_despigmentacion ${styles.img_despigmentacion}`}
+                    src="/despigmentacion.jpg"
+                    alt="Imagen de persona de tratamiento despigmentación"
+                />
                 <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                     La pigmentación de nuestra piel se produce gracias a los pigmentos, entre los que destacan las melaninas; y estos
                     determinan el color de la misma. Es frecuente en la población en general encontrar la aparición de manchas de
