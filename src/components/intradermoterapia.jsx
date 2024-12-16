@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/intradermoterapiaModule.css"
+import LazyLoad from "react-lazyload";
 
 
 
@@ -12,7 +13,9 @@ function Intradermoterapia() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_intradermoterapia ${styles.container_descripcion_intradermoterapia}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Intradermoterapia</h2>
-                    <img src="/intradermoterapia.jpg" alt="Imagen de persona intradermoterapia" className={`img_intradermoterapia ${styles.img_intradermoterapia}`} />
+                    <LazyLoad>
+                        <img src="/intradermoterapia.jpg" alt="Imagen de persona intradermoterapia" className={`img_intradermoterapia ${styles.img_intradermoterapia}`} />
+                    </LazyLoad>
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         También llamada calvicie común, se produce por el adelgazamiento y pérdida progresiva y excesiva de cabello, siendo la responsable del 95% de los casos de pérdida del cabello en la población. Afecta principalmente a los varones, pero también a las mujeres.
                         Como causas se destacan dos factores, el genético y el hormonal. El factor hormonal depende fundamentalmente de las hormonas masculinas (testosterona) o andrógenos que actúan sobre los folículos pilosos predispuestos genéticamente a la afección, provocando su miniaturización progresiva hasta ocasionar su atrofia completa y fibrosis.

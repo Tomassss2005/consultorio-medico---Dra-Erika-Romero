@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/contornoMandibular.css";
+import LazyLoad from "react-lazyload";
 
 
 
@@ -12,11 +13,13 @@ function ContornoMandibular() {
         <div className={`tratamientos_container ${styles.tratamientos_container}`}>
             <div className={`container_descripcion_contorno_mandibular ${styles.container_descripcion_contorno_mandibular}`}>
                 <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Contorno mandibular</h2>
-                <img
-                    className={`img_contorno_mandibular ${styles.img_contorno_mandibular}`}
-                    src="/despues-contorno-mandibular.jpg"
-                    alt="Imagen de persona de tratamiento contorno mandibular"
-                />
+                <LazyLoad>
+                    <img
+                        className={`img_contorno_mandibular ${styles.img_contorno_mandibular}`}
+                        src="/despues-contorno-mandibular.jpg"
+                        alt="Imagen de persona de tratamiento contorno mandibular"
+                    />
+                </LazyLoad>
                 <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                     Tanto en la mujer como en el hombre, por distintas causas como el paso del tiempo, los hábitos y la predisposición
                     genética, algunas líneas de la anatomía facial van perdiendo su forma a raíz de la flacidez de la piel, el

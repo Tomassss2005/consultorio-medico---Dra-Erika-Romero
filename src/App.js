@@ -18,6 +18,7 @@ import Nosotros from "./components/nosotros.jsx";
 import Resultados from "./components/resultados.jsx";
 import Contacto from "./components/contacto.jsx";
 import Perfil from "./components/Perfil.jsx";
+import LazyLoad from 'react-lazyload';
 
 
 function App() {
@@ -28,11 +29,13 @@ function App() {
           path='/'
           element={
             <>
-              <Inicio />
-              <Carrusel />
-              <TresTratamientos />
-              <Consejos />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Carrusel />
+                <TresTratamientos />
+                <Consejos />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -42,9 +45,11 @@ function App() {
           path='/alopecia-androgenica'
           element={
             <>
-              <Inicio />
-              <AlopeciaAndrogenica />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <AlopeciaAndrogenica />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -53,9 +58,11 @@ function App() {
           path='/contorno-mandibular'
           element={
             <>
-              <Inicio />
-              <ContornoMandibular />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <ContornoMandibular />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -64,9 +71,11 @@ function App() {
           path='/despigmentacion'
           element={
             <>
-              <Inicio />
-              <Despigmentacion />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Despigmentacion />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -75,9 +84,11 @@ function App() {
           path='/fillers-con-acido-hialuronico'
           element={
             <>
-              <Inicio />
-              <FillersConAcidoHialuronico />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <FillersConAcidoHialuronico />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -86,9 +97,11 @@ function App() {
           path='/intradermoterapia'
           element={
             <>
-              <Inicio />
-              <Intradermoterapia />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Intradermoterapia />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -97,9 +110,11 @@ function App() {
           path='/nutricion-calidad-de-piel'
           element={
             <>
-              <Inicio />
-              <NutricionCalidadDePiel />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <NutricionCalidadDePiel />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -108,9 +123,11 @@ function App() {
           path='/peeling-facial'
           element={
             <>
-              <Inicio />
-              <PeelingFacial />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <PeelingFacial />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -119,9 +136,11 @@ function App() {
           path='/plasma-rico-en-plaquetas'
           element={
             <>
-              <Inicio />
-              <PlasmaRicoEnPlaquetas />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <PlasmaRicoEnPlaquetas />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -130,9 +149,11 @@ function App() {
           path='/toxina-botulinica'
           element={
             <>
-              <Inicio />
-              <ToxinaBotulinica />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <ToxinaBotulinica />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -141,9 +162,11 @@ function App() {
           path='/nosotros'
           element={
             <>
-              <Inicio />
-              <Nosotros />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Nosotros />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -152,9 +175,11 @@ function App() {
           path='/resultados'
           element={
             <>
-              <Inicio />
-              <Resultados />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Resultados />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
@@ -163,14 +188,23 @@ function App() {
           path='/contacto'
           element={
             <>
-              <Inicio />
-              <Contacto />
-              <Footer />
+              <LazyLoad>
+                <Inicio />
+                <Contacto />
+                <Footer />
+              </LazyLoad>
             </>
           }
         />
 
-        <Route path='/mi-perfil' element={<Perfil />} />
+        <Route
+          path='/mi-perfil'
+          element={
+            <LazyLoad>
+              <Perfil />
+            </LazyLoad>
+          }
+        />
       </Routes>
     </div>
   );

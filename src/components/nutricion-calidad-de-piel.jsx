@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/nutricionCalidadDePielModule.css";
+import LazyLoad from "react-lazyload";
 
 
 
@@ -10,7 +11,9 @@ function CalidadPiel() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_piel ${styles.container_descripcion_piel}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Nutrición y calidad de piel</h2>
-                    <img src="/piel.jpg" alt="Imagen de persona nutrición y calidad de piel" className={`img_piel ${styles.img_piel}`} />
+                    <LazyLoad>
+                        <img src="/piel.jpg" alt="Imagen de persona nutrición y calidad de piel" className={`img_piel ${styles.img_piel}`} />
+                    </LazyLoad>
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         En la piel existen diversos elementos que influyen en su calidad, textura y visualización, los principales son: ácido hialurónico, elastina y colágeno. En las pieles jóvenes y saludables, hay cantidades suficientes de estos elementos. Con el tiempo, o debido a factores externos (estrés, dieta poco saludable, jabones agresivos, exposición solar, sedentarismo, tabaquismo, etc.), las cantidades de ácido hialurónico, elastina y colágeno disminuyen, y además, la calidad de estos componentes se verá afectada en cantidad y calidad. La calidad de la piel se va deteriorando.
                         Se pueden observar pieles secas, ásperas, gruesas, porosas, sin luminosidad, y sin firmeza y elasticidad.

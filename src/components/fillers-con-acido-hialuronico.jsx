@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/fillersConAcidoHialuronicoModule.css";
+import LazyLoad from "react-lazyload";
 
 
 
@@ -11,7 +12,9 @@ function AcidoHialuronico() {
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`container_descripcion_acido_hialuronico ${styles.container_descripcion_acido_hialuronico}`}>
                     <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Ácido hialurónico</h2>
-                    <img src="/acido-hialuronico.jpg" alt="Imagen de persona acido hialurónico" className={`img_acido_hialuronico ${styles.img_acido_hialuronico}`} />
+                    <LazyLoad>
+                        <img src="/acido-hialuronico.jpg" alt="Imagen de persona acido hialurónico" className={`img_acido_hialuronico ${styles.img_acido_hialuronico}`} />
+                    </LazyLoad>
                     <p className={`p_tratamientos ${styles.p_tratamientos}`}>
                         Es utilizado para rellenos faciales, y permite reponer el volumen perdido, reestructurar la anatomía facial que ha perdido su forma normal por el paso del tiempo y por otras causas como el sol, la deshidratación, y el adelgasamiento, etc. Es una excelente terapéutica no quirúrgica para varias áreas del rostro. En labios se aplica para dar turgencia e hidratación a los labios, mejorar la forma y definir el perfilado.
                         En mejillas mejora el aspecto adelgazado, otorga elasticidad y firmeza, posee poder alisante mejorando el aspecto de las arrugas.

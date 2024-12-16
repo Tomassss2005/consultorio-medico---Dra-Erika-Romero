@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import styles from "../styles/tresTratamientosModule.css";
+import LazyLoad from "react-lazyload";
 
 
 function Tratamientos() {
@@ -14,16 +15,22 @@ function Tratamientos() {
             <h1 className={`titulo_tratamientos ${styles.titulo_tratamientos}`}>Algunos de nuestros tratamientos</h1>
             <div className={`tratamientos_container ${styles.tratamientos_container}`}>
                 <div className={`tratamiento ${styles.tratamiento}`}>
-                    <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/primer-tratamiento.jpg" alt="Tratamiento 1" />
-                    <Link to="/plasma-rico-en-plaquetas" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Plasma rico en plaquetas</Link>
+                    <LazyLoad>
+                        <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/primer-tratamiento.jpg" alt="Tratamiento 1" />
+                        <Link to="/plasma-rico-en-plaquetas" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Plasma rico en plaquetas</Link>
+                    </LazyLoad>
                 </div>
                 <div className={`tratamiento ${styles.tratamiento}`}>
-                    <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/segundo-tratamiento.jpg" alt="Tratamiento 2" />
-                    <Link to="/peeling-facial" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Peeling facial</Link>
+                    <LazyLoad>
+                        <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/segundo-tratamiento.jpg" alt="Tratamiento 2" />
+                        <Link to="/peeling-facial" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Peeling facial</Link>
+                    </LazyLoad>
                 </div>
                 <div className={`tratamiento ${styles.tratamiento}`}>
-                    <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/tercer-tratamiento.jpg" alt="Tratamiento 3" />
-                    <Link to="/toxina-botulinica" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Toxina botulínica</Link>
+                    <LazyLoad>
+                        <img className={`img_tratamientos ${styles.img_tratamientos}`} src="/tercer-tratamiento.jpg" alt="Tratamiento 3" />
+                        <Link to="/toxina-botulinica" onClick={scrollToTop} className={`a_tratamientos ${styles.a_tratamientos}`}>Toxina botulínica</Link>
+                    </LazyLoad>
                 </div>
             </div>
         </div>
