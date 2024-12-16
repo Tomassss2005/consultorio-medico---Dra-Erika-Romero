@@ -13,9 +13,9 @@ function Despigmentacion() {
                 <h2 className={`h2_tratamientos ${styles.h2_tratamientos}`}>Despigmentación</h2>
                 <LazyLoad>
                     <img
-                        className={`img_contorno_mandibular ${styles.img_contorno_mandibular}`}
-                        src="/despues-contorno-mandibular.jpg"
-                        alt="Imagen de persona de tratamiento contorno mandibular"
+                        className={`img_despigmentacion ${styles.img_despigmentacion}`}
+                        src="/despigmentacion.jpg"
+                        alt="Imagen de persona de tratamiento despigmentación"
                     />
                 </LazyLoad>
                 <p className={`p_tratamientos ${styles.p_tratamientos}`}>

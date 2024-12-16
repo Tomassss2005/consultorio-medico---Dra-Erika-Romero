@@ -105,17 +105,17 @@ const Navbar = () => {
                     )}
                 </li>
                 <li>
-                    <Link to="/nosotros" className={`a_nav ${styles.a_nav}`}>
+                    <Link to="/nosotros" onClick={scrollToTop} className={`a_nav ${styles.a_nav}`}>
                         Acerca de mí
                     </Link>
                 </li>
                 <li>
-                    <Link to="/resultados" className={`a_nav ${styles.a_nav}`}>
+                    <Link to="/resultados" onClick={scrollToTop} className={`a_nav ${styles.a_nav}`}>
                         Resultados
                     </Link>
                 </li>
                 <li>
-                    <Link to="/contacto" className={`a_nav ${styles.a_nav}`}>
+                    <Link to="/contacto" onClick={scrollToTop} className={`a_nav ${styles.a_nav}`}>
                         Contáctanos
                     </Link>
                 </li>

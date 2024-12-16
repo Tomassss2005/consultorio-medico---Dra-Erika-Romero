@@ -10,6 +10,7 @@ function Footer() {
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     };
+    
     return (
         <footer className={`footer ${styles.footer}`}>
             <div className={`footer_container ${styles.footer_container}`}>

@@ -16,10 +16,8 @@ function Resultados() {
                     <h3 className={`h3_despues ${styles.h3_despues}`}>Después</h3>
                 </div>
                 <div className={`container_tratamientos_img ${styles.container_tratamientos_img}`}>
-                    <LazyLoad>
-                        <img className={`img_antes ${styles.img_antes}`} src="/antes-filler.png" alt="Antes del tratamiento" />
-                        <img className={`img_despues ${styles.img_despues}`} src="/despues-filler.png" alt="Después del tratamiento" />
-                    </LazyLoad>
+                    <img className={`img_antes ${styles.img_antes}`} src="/antes-filler.png" alt="Antes del tratamiento" />
+                    <img className={`img_despues ${styles.img_despues}`} src="/despues-filler.png" alt="Después del tratamiento" />
                 </div>
             </div>
             <div className={`container_antes_despues ${styles.container_antes_despues}`}>
@@ -31,10 +29,8 @@ function Resultados() {
                     <h3 className={`h3_despues ${styles.h3_despues}`}>Después</h3>
                 </div>
                 <div className={`container_tratamientos_img ${styles.container_tratamientos_img}`}>
-                    <LazyLoad>
-                        <img className={`img_antes_contorno_mandibular ${styles.img_antes_contorno_mandibular}`} src="/antes-contorno-mandibular.jpg" alt="Antes del tratamiento" />
-                        <img className={`img_despues_contorno_mandibular ${styles.img_despues_contorno_mandibular}`} src="/despues-contorno-mandibular.jpg" alt="Después del tratamiento" />
-                    </LazyLoad>
+                    <img className={`img_antes_contorno_mandibular ${styles.img_antes_contorno_mandibular}`} src="/antes-contorno-mandibular.jpg" alt="Antes del tratamiento" />
+                    <img className={`img_despues_contorno_mandibular ${styles.img_despues_contorno_mandibular}`} src="/despues-contorno-mandibular.jpg" alt="Después del tratamiento" />
                 </div>
             </div>
             <div className={`container_antes_despues ${styles.container_antes_despues}`}>
@@ -46,10 +42,9 @@ function Resultados() {
                     <h3 className={`h3_despues ${styles.h3_despues}`}>Después</h3>
                 </div>
                 <div className={`container_tratamientos_img ${styles.container_tratamientos_img}`}>
-                    <LazyLoad>
-                        <img className={`img_antes ${styles.img_antes}`} src="/antes-labios-rusos.jpg" alt="Antes del tratamiento" />
-                        <img className={`img_despues ${styles.img_despues}`} src="/despues-labios-rusos.jpg" alt="Después del tratamiento" />
-                    </LazyLoad>
+                    <img className={`img_antes ${styles.img_antes}`} src="/antes-labios-rusos.jpg" alt="Antes del tratamiento" />
+                    <img className={`img_despues ${styles.img_despues}`} src="/despues-labios-rusos.jpg" alt="Después del tratamiento" />
+
                 </div>
             </div>
             <div className={`container_antes_despues_2 ${styles.container_antes_despues_2}`}>
@@ -61,10 +56,8 @@ function Resultados() {
                     <h3 className={`h3_despues ${styles.h3_despues}`}>Después</h3>
                 </div>
                 <div className={`container_tratamientos_img ${styles.container_tratamientos_img}`}>
-                    <LazyLoad>
-                        <img className={`img_antes ${styles.img_antes}`} src="antes-alopecia.jpg" alt="Antes del tratamiento" />
-                        <img className={`img_despues ${styles.img_despues}`} src="despues-alopecia.jpg" alt="Después del tratamiento" />
-                    </LazyLoad>
+                    <img className={`img_antes ${styles.img_antes}`} src="antes-alopecia.jpg" alt="Antes del tratamiento" />
+                    <img className={`img_despues ${styles.img_despues}`} src="despues-alopecia.jpg" alt="Después del tratamiento" />
                 </div>
             </div>
         </div>
