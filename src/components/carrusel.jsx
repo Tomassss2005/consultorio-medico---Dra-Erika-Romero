@@ -10,7 +10,7 @@ const Carrusel = () => {
             description: "Nuestro objetivo es tu bienestar. ¡Vení y comprobá la diferencia!",
         },
         {
-            src: "/carrusel-2.png",
+            src: "/carrusel-2.jpg",
             description: "Conocé nuestros tratamientos innovadores que garantizan resultados.",
         },
         {

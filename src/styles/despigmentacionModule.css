@@ -34,7 +34,7 @@
 .container_beneficios_despigmentacion {
     flex: 1;
     padding: 20px;
-    margin-top: 450px;
+    margin-top: 320px;
 }
 
 @media (max-width: 1250px) {

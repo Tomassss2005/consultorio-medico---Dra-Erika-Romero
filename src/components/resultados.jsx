@@ -28,8 +28,8 @@ function Resultados() {
                     <h3 className={`h3_despues ${styles.h3_despues}`}>Después</h3>
                 </div>
                 <div className={`container_tratamientos_img ${styles.container_tratamientos_img}`}>
-                    <img className={`img_antes_contorno_mandibular ${styles.img_antes_contorno_mandibular}`} src="/antes-contorno-mandibular.jpg" alt="Antes del tratamiento" />
-                    <img className={`img_despues_contorno_mandibular ${styles.img_despues_contorno_mandibular}`} src="/despues-contorno-mandibular.jpg" alt="Después del tratamiento" />
+                    <img className={`img_antes_contorno_mandibular ${styles.img_antes_contorno_mandibular}`} src="/antes-contorno.jpg" alt="Antes del tratamiento" />
+                    <img className={`img_despues_contorno_mandibular ${styles.img_despues_contorno_mandibular}`} src="/despues-contorno.jpg" alt="Después del tratamiento" />
                 </div>
             </div>
             <div className={`container_antes_despues ${styles.container_antes_despues}`}>
