@@ -14,7 +14,7 @@ function ContornoMandibular() {
 
                 <img
                     className={`img_contorno_mandibular ${styles.img_contorno_mandibular}`}
-                    src="/despues-contorno-mandibular.jpg"
+                    src="/despues-contorno.jpg"
                     alt="Imagen de persona de tratamiento contorno mandibular"
                 />
                 <p className={`p_tratamientos ${styles.p_tratamientos}`}>
