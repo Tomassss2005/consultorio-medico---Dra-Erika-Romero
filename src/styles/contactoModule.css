@@ -235,4 +235,16 @@
         margin-bottom: 10px;
         margin-right: 0;
     }
+
+
+    .a_info_contacto,
+    .a_info_contacto_email,
+    .a_info_contacto_telefono {
+        font-size: 1rem;
+    }
+
+    .logo_contacto,
+    .logo_contacto_email {
+        font-size: 1rem;
+    }
 }

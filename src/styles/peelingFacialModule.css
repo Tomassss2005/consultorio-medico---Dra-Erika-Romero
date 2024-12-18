@@ -141,7 +141,8 @@
     }
 
     .li_tratamientos {
-        font-size: 13px;
+        font-size: 12px;
+        margin-left: 65px;
     }
 
     .img_peeling {
@@ -150,9 +151,5 @@
 
     .h3_beneficios {
         margin-right: 0px;
-    }
-
-    .li_tratamientos {
-        margin-left: 65px;
     }
 }
