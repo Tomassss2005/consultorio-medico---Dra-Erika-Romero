@@ -24,9 +24,9 @@ function CalidadPiel() {
                     <ul className={`beneficios_tratamientos ${styles.beneficios_tratamientos}`}>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Hidratación y elasticidad.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Reducción de la inflamación.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Mejora de las cicatrizaciónes.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Estimulación del crecimiento capilar.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Luminosidad y tono uniforme.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Mejora el aspecto de las cicatrices.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Homogeniza los distintos tonos de la piel.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Luminosidad y suavidad.</li>
                     </ul>
                 </div>
             </div>

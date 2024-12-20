@@ -75,7 +75,6 @@
 .h3_beneficios {
     text-align: center;
     margin-bottom: 30px;
-    margin-right: 120px;
     font-size: 30px;
     color: #8e4c4c7b;
 }
@@ -88,10 +87,9 @@
 }
 
 .li_tratamientos {
-    text-align: left;
+    text-align: center;
     font-size: 0.9rem;
     line-height: 4;
-    margin-left: 87px;
 }
 
 .li_tratamientos:before {
@@ -110,14 +108,6 @@
     .container_beneficios {
         margin-top: 60px;
         margin-right: 0px;
-    }
-
-    .h3_beneficios {
-        margin-right: 30px;
-    }
-
-    .li_tratamientos {
-        margin-left: 80px;
     }
 }
 
@@ -142,14 +132,9 @@
 
     .li_tratamientos {
         font-size: 0.6rem;
-        margin-left: 50px;
     }
 
     .img_peeling {
         height: auto;
-    }
-
-    .h3_beneficios {
-        margin-right: 0px;
     }
 }

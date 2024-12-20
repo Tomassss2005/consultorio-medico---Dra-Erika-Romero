@@ -21,7 +21,7 @@ function AcidoHialuronico() {
                 <div className={`container_beneficios_acido_hialuronico ${styles.container_beneficios_acido_hialuronico}`}>
                     <h3 className={`h3_beneficios ${styles.h3_beneficios}`}>Beneficios</h3>
                     <ul className={`beneficios_tratamientos ${styles.beneficios_tratamientos}`}>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Relleno de arrugas.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Tratamiento de arrugas.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Volumen y definición.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Hidratación profunda.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Resultados naturales.</li>

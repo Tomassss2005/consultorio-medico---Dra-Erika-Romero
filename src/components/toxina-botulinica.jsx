@@ -24,7 +24,7 @@ function ToxinaBotulinica() {
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Reducción de arrugas y líneas de expresión.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Prevención del envejecimiento.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Corrección de sonrisas gingivales.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Tratamiento del bruxsísmo.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Tratamiento del bruxismo.</li>
                         <li className={`li_tratamientos ${styles.li_tratamientos}`}>Control de la hiperhidrosis.</li>
                     </ul>
                 </div>

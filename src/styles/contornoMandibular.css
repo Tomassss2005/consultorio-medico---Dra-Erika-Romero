@@ -24,8 +24,9 @@
 
 .img_contorno_mandibular {
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 450px;
+    margin-left: 40px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 15px;
@@ -56,6 +57,10 @@
         margin-top: 60px;
         margin-right: 0px;
     }
+
+    .img_contorno_mandibular {
+        margin-left: 50px;
+    }
 }
 
 
@@ -78,6 +83,9 @@
 
     .img_contorno_mandibular {
         height: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
 }
