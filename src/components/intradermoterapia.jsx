@@ -23,11 +23,11 @@ function Intradermoterapia() {
                 <div className={`container_beneficios_intradermoterapia ${styles.container_beneficios_intradermoterapia}`}>
                     <h3 className={`h3_beneficios ${styles.h3_beneficios}`}>Beneficios</h3>
                     <ul className={`beneficios_tratamientos ${styles.beneficios_tratamientos}`}>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Se detiene la caida patológica del cabello.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Estimulación del crecimiento.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Engrosamiento del cabello.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Mejora de la salud del cuero cabelludo.</li>
-                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Aumento del tamaño de los foliculos pilosos.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Mejora de la circulación sanguínea.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Reafirmación de la piel.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Hidratación, luminosidad.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Revitalización y renovación celular.</li>
+                        <li className={`li_tratamientos ${styles.li_tratamientos}`}>Reducción de la celulitis corporal.</li>
                     </ul>
                 </div>
             </div>
