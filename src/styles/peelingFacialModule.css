@@ -60,7 +60,6 @@
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s;
-
 }
 
 .btn_agendar:hover {
@@ -88,18 +87,18 @@
 
 .li_tratamientos {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 4;
 }
 
 .li_tratamientos:before {
     content: '●';
     color: #007bff8e;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-right: 10px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
 
     .container_descripcion_peeling {
         margin-top: 0px;
@@ -131,7 +130,7 @@
     }
 
     .li_tratamientos {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .img_peeling {
