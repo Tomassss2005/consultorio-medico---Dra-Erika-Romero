@@ -15,7 +15,7 @@
 
 .imagenes_carrusel {
     width: 100%;
-    height: 565px;
+    height: 55px;
 }
 
 .carrusel_description_p1 {
@@ -59,13 +59,17 @@
 
 @media (max-width: 1980px) {
     .imagenes_carrusel {
-        height: 700px;
+        height: 630px;
     }
 }
 
 @media (max-width:1300px) {
     .carrusel {
         padding-top: 0px;
+    }
+
+    .carrusel_description_p2 {
+        left: 30%;
     }
 }
 
@@ -76,7 +80,7 @@
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
     .carrusel {
         width: 100%;
         padding-top: 0px;
@@ -87,8 +91,24 @@
         height: auto;
     }
 
-    .carrusel_description_p {
-        font-size: 11px;
+    .carrusel_description_p1 {
+        font-size: 12px;
+        /* Reducir aún más el tamaño de la fuente */
         padding: 5px;
+        /* Reducir padding */
+        bottom: 150px;
+    }
+
+    .carrusel_description_p2 {
+        font-size: 12px;
+        padding: 5px;
+        bottom: 30px;
+        left: 25%;
+    }
+
+    .carrusel_description_p3 {
+        font-size: 12px;
+        padding: 5px;
+        bottom: 100px;
     }
 }
