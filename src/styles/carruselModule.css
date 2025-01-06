@@ -92,23 +92,23 @@
     }
 
     .carrusel_description_p1 {
-        font-size: 12px;
+        font-size: 10px;
         /* Reducir aún más el tamaño de la fuente */
-        padding: 5px;
+        padding: 4px;
         /* Reducir padding */
-        bottom: 150px;
+        bottom: 110px;
     }
 
     .carrusel_description_p2 {
-        font-size: 12px;
-        padding: 5px;
-        bottom: 30px;
+        font-size: 10px;
+        padding: 4px;
+        bottom: 20px;
         left: 25%;
     }
 
     .carrusel_description_p3 {
-        font-size: 12px;
-        padding: 5px;
-        bottom: 100px;
+        font-size: 10px;
+        padding: 4px;
+        bottom: 60px;
     }
 }
