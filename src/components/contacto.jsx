@@ -142,11 +142,11 @@ function Contacto() {
                 <div className={`detalles_mapa_section ${styles.deatalles_mapa_section}`}>
                     <div className={`div_info_contacto ${styles.div_info_contacto}`}>
                         <h2 className={`h2_contacto ${styles.h2_contacto}`}>Detalles</h2>
-                        <a className={`a_info_contacto ${styles.a_info_contacto}`} href="https://www.google.com/maps/place/Av.Triunvirato+3785,+C1431FDO+CABA" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faMapMarkerAlt} /> Av.Triunvirato 3785,1°A
+                        <a className={`a_info_contacto ${styles.a_info_contacto}`} href="https://maps.app.goo.gl/yeZGJn9mhX6K74Uv6" target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faMapMarkerAlt} /> La Paz 1450, Belgrano CABA
                         </a>
-                        <a className={`a_info_contacto_telefono ${styles.a_info_contacto_telefono}`} href="https://wa.me/91137742782">
-                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faPhone} /> +54 9 11 3774-2782
+                        <a className={`a_info_contacto_telefono ${styles.a_info_contacto_telefono}`} href="https://wa.me/+5491125495253">
+                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faPhone} /> +54 9 11 2549-5253
                         </a>
                         <a className={`a_info_contacto_email ${styles.a_info_contacto_email}`} href="mailto:erikaromero.salud@gmail.com">
                             <FontAwesomeIcon className={`logo_contacto_email ${styles.logo_contacto_email}`} icon={faEnvelope} /> erikaromero.salud@gmail.com
@@ -154,7 +154,18 @@ function Contacto() {
                     </div>
 
                     <div className={`div_mapa ${styles.div_mapa}`}>
-                        <iframe className={`mapa ${styles.mapa}`} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9269341187883!2d-58.474570299999996!3d-34.5807153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb66d8aff4e9b%3A0x828a3e4924a04559!2sAv%20Triunvirato%203785%2C%20C1431%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1728318556761!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.428575278841!2d-58.452329199999994!3d-34.5680208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5daa7dd78bb%3A0x9c668ade4b5958f9!2sCdad.%20de%20la%20Paz%201450%2C%20C1426%20C1426AHA%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1754927681299!5m2!1ses!2sar"
+                                className={`mapa ${styles.mapa}`}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            >
+                                DIRECCIÓN: La Paz 1450. CABA, Argentina
+                            </iframe>
+                        </p>
+
                     </div>
                 </div>
             </div>
