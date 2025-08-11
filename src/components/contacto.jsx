@@ -143,7 +143,7 @@ function Contacto() {
                     <div className={`div_info_contacto ${styles.div_info_contacto}`}>
                         <h2 className={`h2_contacto ${styles.h2_contacto}`}>Detalles</h2>
                         <a className={`a_info_contacto ${styles.a_info_contacto}`} href="https://maps.app.goo.gl/yeZGJn9mhX6K74Uv6" target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faMapMarkerAlt} /> La Paz 1450, Belgrano CABA
+                            <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faMapMarkerAlt} /> Ciudad de la Paz 1450, Belgrano CABA
                         </a>
                         <a className={`a_info_contacto_telefono ${styles.a_info_contacto_telefono}`} href="https://wa.me/+5491125495253">
                             <FontAwesomeIcon className={`logo_contacto ${styles.logo_contacto}`} icon={faPhone} /> +54 9 11 2549-5253

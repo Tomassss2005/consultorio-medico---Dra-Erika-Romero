@@ -38,7 +38,7 @@ function Footer() {
                     <h3 className={`footer_h3 ${styles.footer_h3}`}>Contacto</h3>
                     <p> <a href="mailto:erikaromero.salud@gmail.com" className={`a_p_footer ${styles.a_p_footer}`}>EMAIL: erikaromero.salud@gmail.com</a></p>
                     <p> <a href="https://wa.me/+5491125495253" className={`a_p_footer ${styles.a_p_footer}`}>TELÉFONO: +54 9 11 2549-5253</a></p>
-                    <p> <a href="https://maps.app.goo.gl/yeZGJn9mhX6K74Uv6" className={`a_p_footer_3 ${styles.a_p_footer_3}`}>DIRECCIÓN: La Paz 1450, Belgrano CABA</a></p>
+                    <p> <a href="https://maps.app.goo.gl/yeZGJn9mhX6K74Uv6" className={`a_p_footer_3 ${styles.a_p_footer_3}`}>DIRECCIÓN: Ciudad de la Paz 1450, Belgrano CABA</a></p>
                 </div>
             </div>
             <p className={`copy_footer ${styles.copy_footer}`}>Todos los derechos reservados <strong>&copy;</strong>{new Date().getFullYear()}</p>
