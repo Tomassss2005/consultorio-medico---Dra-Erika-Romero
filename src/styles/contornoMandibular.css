@@ -1,0 +1,91 @@
+/* CONTORNO MANDIBULAR */
+
+
+.tratamientos_container {
+    display: flex;
+    flex-direction: row;
+    /* Usar Flexbox para alinear los elementos en una fila */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container_descripcion_contorno_mandibular {
+    flex: 1;
+    max-width: 600px;
+    margin: 0 100px;
+    /* Márgenes laterales */
+    padding: 20px;
+    background-color: #af0d0d09;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.291);
+    margin-top: 260px;
+}
+
+.img_contorno_mandibular {
+    align-items: center;
+    width: 80%;
+    height: 450px;
+    margin-left: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.container_beneficios_contorno_mandibular {
+    flex: 1;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 320px;
+}
+
+
+.beneficios_tratamientos {
+    padding: 0;
+    font-size: 1.2rem;
+    line-height: 4.5;
+    list-style: none;
+}
+
+@media (max-width: 1300px) {
+
+    .container_descripcion_contorno_mandibular {
+        margin-top: 0px;
+    }
+
+    .container_beneficios_contorno_mandibular {
+        margin-top: 60px;
+        margin-right: 0px;
+    }
+
+    .img_contorno_mandibular {
+        margin-left: 50px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .container_descripcion_contorno_mandibular {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .container_beneficios_contorno_mandibular {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .img_contorno_mandibular {
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}

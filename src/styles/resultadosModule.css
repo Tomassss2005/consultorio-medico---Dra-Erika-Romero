@@ -1,0 +1,131 @@
+/* RESULTADOS */
+
+
+.container_antes_despues {
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+    margin-bottom: -60px;
+}
+
+.container_antes_despues_2 {
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+    margin-bottom: 200px;
+}
+
+.h1_antes_despues {
+    text-align: center;
+    margin-bottom: 60px;
+    color: black;
+    font-family: "Lato", sans-serif;
+}
+
+
+.div_h3_tratamientos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.h3_antes {
+    font-size: 40px;
+    color: rgba(91, 74, 74, 0.677);
+}
+
+.h3_despues {
+    font-size: 40px;
+    color: rgba(91, 74, 74, 0.677);
+}
+
+.container_tratamientos_img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_antes_contorno_mandibular {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img_despues_contorno_mandibular {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img_antes_contorno_mandibular:hover {
+    transform: scale(1.05);
+}
+
+.img_despues_contorno_mandibular:hover {
+    transform: scale(1.05);
+}
+
+.img_antes {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img_despues {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img_antes:hover {
+    transform: scale(1.05);
+}
+
+.img_despues:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 1250px) {
+
+    .container_antes_despues,
+    .container_antes_despues_2 {
+        padding-top: 90px;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .container_antes_despues {
+        margin-bottom: 60px;
+    }
+
+    .container_antes_despues_2 {
+        margin-bottom: 100px;
+    }
+
+    .h1_antes_despues {
+        font-size: 30px;
+    }
+
+    .h3_antes {
+        font-size: 30px;
+    }
+
+    .h3_despues {
+        font-size: 30px;
+    }
+
+    .img_antes,
+    .img_despues {
+        width: 45%;
+    }
+}
